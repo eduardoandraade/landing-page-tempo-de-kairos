@@ -1,7 +1,10 @@
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <span>Desenvolvido por Eduardo Andrade</span>
+    <div className="App">
+      <Header />
+    </div>
   );
 }
 

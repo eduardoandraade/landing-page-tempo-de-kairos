@@ -2,7 +2,7 @@
   --primary: #1f3e72;
   --secondary: rgba(255, 255, 255, 0.78);
   --black: #131110;
-  --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+  --blue-gradient: linear-gradient(97.05deg, #FFD746 3.76%, #F9C200 100%);
   --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
   --blue: #4066ff;
   --lightBlue: #eeeeff;
@@ -80,6 +80,21 @@ a {
   color: orange;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.button {
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  color: var(--black);
+  background: var(--blue-gradient);
+  border: none;
+  border-radius: 4px;
+  transition: all 3ooms ease-in;
+}
+
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.03);
 }
 
 /* media queries */
