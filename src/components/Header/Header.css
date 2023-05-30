@@ -1,18 +1,18 @@
 .h-wrapper {
-    background: var(--secondary);
-    color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .h-container {
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     color: black;
 }
 
 .h-menu {
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .h-menu>*:hover {

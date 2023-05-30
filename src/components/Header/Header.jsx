@@ -4,20 +4,20 @@ import './Header.css'
 const Header = () => {
   return (
     <section className="h-wrapper">
-        <div className="flexCenter paddigns innerWidth h-container">
+        <div className="flexCenter paddings innerWidth h-container">
             <a href="#">
-                <img src="./logo.svg" alt=""  width={65}/>
+                <img src="./1.png" alt=""  width={65}/>
             </a>
 
             <div className="flexCenter h-menu">
-                <a 
+                <a  className="nav-link" 
                     href=""
                 >
                     Filhotes
                 </a>
-                <a href="">Sobre Nós</a>
-                <a href="">Galeria</a>
-                <a href="">Depoimentos</a>
+                <a className="nav-link" href="">Sobre Nós</a>
+                <a className="nav-link" href="">Galeria</a>
+                <a className="nav-link" href="">Depoimentos</a>
 
                 <button className="button">
                     <a href="">Contato</a>
