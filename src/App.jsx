@@ -2,7 +2,8 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 import './App.css'
-import Certificates from "./components/Certificates/Certificates";
+import Puppies from "./components/Puppies/Puppies";
+import Certificates from "./components/Certificates/certificates";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Hero />
       </div>
       <Certificates />
+      <Puppies />
       <Footer />
 
       

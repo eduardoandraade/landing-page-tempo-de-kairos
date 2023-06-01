@@ -52,8 +52,7 @@
     border: 3px solid rgba(255, 253, 253, 0.374);
     padding: 0.5rem 1rem;
     justify-content: space-between;
-    width: 100%;
-    gap: 1rem;
+    width: 90%;
     
 }
 
@@ -63,7 +62,7 @@
 }
 
 .stats {
-    width: 100%;
+    width: 90%;
     justify-content: space-around;
 }
 
@@ -72,7 +71,7 @@
 }
 
 .stat>:nth-child(1)>:last-child {
-    color: #bdb329;
+    color: gold;
 }
 
 /* right side */

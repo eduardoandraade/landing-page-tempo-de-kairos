@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import { HiLocationMarker } from "react-icons/hi";
+import { HiOutlineChevronRight } from "react-icons/hi";
 import CountUp from "react-countup";
 
 const Hero = () => {
@@ -27,9 +27,12 @@ const Hero = () => {
                 </div>
 
                 <div className="flexCenter search-bar">
-                    <HiLocationMarker color="var(--blue)" size={25} />
-                    <span className="ctaText">serviços | agendar visita | dúvidas</span>
-                    <button className="button">Entrar em contato</button>
+                    <span className="ctaText">RAÇA PURA, COM A MELHOR GENÉTICA ALEMÃ</span>
+                    <HiOutlineChevronRight color="black" size={23} />
+                    <button className="button">
+                        <a href="https://api.whatsapp.com/message/JGS633CVEWI6H1?autoload=1&app_absent=0">
+                            CHAME NO WHATSAPP</a>
+                    </button>
                 </div>
 
                 <div className="flexCenter stats">

@@ -4,6 +4,7 @@
   --black: #131110;
   --blue-gradient: linear-gradient(97.05deg, #FFD746 100%, #F9C200 100%);
   --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+  --green-gradient: linear-gradient(270deg, #15e90e 0%, #70df2b 100%);
   --blue: #4066ff;
   --lightBlue: #eeeeff;
   --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
@@ -84,7 +85,8 @@ a {
 
 .ctaText {
   color: black;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
   text-shadow: 0.1px 0.1px 60px rgb(97, 97, 97);
 }
 
@@ -99,7 +101,7 @@ a {
 }
 
 .button {
-  font-weight: 500;
+  font-weight: 600;
   padding: 0.6rem 1.4rem;
   color: var(--black);
   background: var(--blue-gradient);
@@ -113,6 +115,7 @@ a {
   cursor: pointer;
   transform: scale(1.03);
 }
+
 
 /* media queries */
 @media (min-width: 1536px) {
