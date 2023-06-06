@@ -2,7 +2,7 @@
   --primary: #1f3e72;
   --secondary: rgba(255, 255, 255, 0.78);
   --black: #131110;
-  --blue-gradient: linear-gradient(97.05deg, #FFD746 100%, #F9C200 100%);
+  --blue-gradient: linear-gradient(97.05deg, rgb(255, 215, 70) 100%, #F9C200 100%);
   --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
   --green-gradient: linear-gradient(270deg, #15e90e 0%, #70df2b 100%);
   --blue: #4066ff;
@@ -68,10 +68,12 @@ a {
 }
 
 .primaryText {
-  color: #1f3e72;
+  color: rgb(90, 54, 0);
   font-weight: bold;
   font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(85, 84, 84, 0.096);
 }
+
 
 .secondaryText {
   color: rgb(140 139 139);
@@ -91,10 +93,12 @@ a {
 }
 
 .orangeText {
-  color: orange;
-  font-size: 1.5rem;
+  color: #FFD746;
+  font-size: 1.6rem;
   font-weight: 600;
 }
+
+
 
 .nav-link {
   color: white;
