@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import './App.css'
 import Certificates from "./components/Certificates/certificates";
 import Puppies from "./components/Puppies/Puppies";
+import About from "./components/About/About";
 
 
 
@@ -18,6 +19,7 @@ function App() {
       </div>
       <Certificates />
       <Puppies />
+      <About />
       <Footer />
 
     </div>
