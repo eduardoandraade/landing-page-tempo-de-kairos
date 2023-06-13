@@ -1,38 +1,37 @@
   [
   {
     "name": "Jawa",
-    "price": "3.800",
+    "price": "Disponível",
     "detail": "Jawa é uma Rottweiler elegante e gentil. Com sua pelagem preta brilhante e olhos expressivos, ela conquista todos ao seu redor. Ela é dócil, adora receber carinho e é uma excelente companheira.",
     "image": "./filhote1.jpg"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Max",
+    "detail": "Max é um filhote de Rottweiler cheio de energia e personalidade. Com sua pelagem brilhante e expressão confiante, ele é o companheiro perfeito para aventuras ao ar livre. Sua natureza brincalhona e leal fará dele um excelente amigo para toda a família.",
     "image": "./filhote2.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Luna",
+    "price": "",
+    "detail": " Luna é uma filhote de Rottweiler encantadora e carinhosa. Seus olhos expressivos e orelhas caídas são irresistíveis. Ela é inteligente e está sempre pronta para aprender e agradar. Luna será uma excelente companheira para quem busca um cão amoroso e leal.",
     "image": "./filhote3.jpg"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "Rocky",
+    "price": "",
+    "detail": "Rocky é um filhote de Rottweiler com uma personalidade corajosa e determinada. Seu porte imponente e sua postura confiante mostram que ele está pronto para qualquer desafio. Ele é leal e protetor, tornando-se um companheiro de confiança para quem busca um cão de guarda.",
     "image": "./filhote1.jpg"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Bella",
+    "price": "",
+    "detail": "Bella é uma filhote de Rottweiler doce e gentil. Seu pelo macio e seu olhar doce fazem dela uma verdadeira adorável. Ela é amigável e adora receber carinho e atenção. Bella será uma companheira amorosa para famílias que desejam um cão afetuoso e amável.",
     "image": "./filhote2.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Thor",
+    "price": "",
+    "detail": "Thor é um filhote de Rottweiler poderoso e destemido. Seu porte musculoso e sua presença marcante são impressionantes. Ele é enérgico e adora se exercitar, sendo ideal para donos ativos. Com sua lealdade inabalável, Thor será um excelente companheiro para quem busca um cão de guarda confiável.",
     "image": "./filhote3.jpg"
   }
 ]

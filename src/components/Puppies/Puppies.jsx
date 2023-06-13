@@ -11,8 +11,8 @@ const Puppies = () => {
     <section className='p-wrapper'>
         <div className="paddings innerWidth p-container">
             <div className="p-head flexColStart">
-                <span className="orangeText">Faça parte da familia</span>
-                <span className="primaryText">Filhotes Tempo de Kairos</span>
+                <span className="orangeText">Faça parte da família</span>
+                <span className="primaryText">Filhotes Tempo de Kairós</span>
             </div>
 
             <Swiper {...sliderSettings}>

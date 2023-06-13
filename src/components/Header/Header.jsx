@@ -16,11 +16,10 @@ const Header = () => {
                     Filhotes
                 </a>
                 <a className="nav-link" href="">Sobre Nós</a>
-                <a className="nav-link" href="">Galeria</a>
-                <a className="nav-link" href="">Depoimentos</a>
+                <a className="nav-link" href="">Contato</a>
 
                 <button className="button">
-                    <a href="">Contato</a>
+                    <a href="">Lista de Espera</a>
                 </button>
             </div>
         </div>

@@ -25,7 +25,14 @@
 .p-card>:nth-child(2){
     font-size: 1.2rem;
     font-weight: 600;
+    cursor: default;
+    color: #4CAF50; 
+    transition: color 0.3s;
 }
+
+.p-card>:nth-child(2):hover {
+    color: #2fdc38;
+  }
 
 .p-card>:nth-child(3)
 {

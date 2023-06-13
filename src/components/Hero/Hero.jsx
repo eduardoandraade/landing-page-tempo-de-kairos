@@ -16,13 +16,13 @@ const Hero = () => {
                     </div>
                     <h1>
                         Canil <br /> 
-                        Tempo de Kairos
+                        Tempo de Kairós
                     </h1>
                     <h2>Rottweiler Leais e Protetores</h2>
                 </div>
 
                 <div className="flexColStart hero-description">
-                    <span className="descriptionText">Faça parte da nossa família Canil Tempo de Kairos,</span>
+                    <span className="descriptionText">Faça parte da nossa família Canil Tempo de Kairós,</span>
                     <span className="descriptionText">aqui você encontra Rotweillers conhecidos por sua lealdade e beleza.</span>
                 </div>
 

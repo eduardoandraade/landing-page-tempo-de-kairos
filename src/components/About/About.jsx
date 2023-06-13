@@ -27,8 +27,8 @@ const About = () => {
             {/* Right Side */}
             <div className="flexColStart a-right">
 
-                <span className='orangeText' >Sobre Nós</span>
-                <span className='primaryText'>Canil Tempo de Kairos</span>
+                <span className='orangeText' >Sobre nós</span>
+                <span className='primaryText'>Canil Tempo de Kairós</span>
                 <span className='secondaryText'>Nos dedicamos a criar um espaço excepcional para os nossos Rottweilers, 
                     <br />garantindo que recebam cuidados, treinamento adequado e um ambiente saudável. 
                     Conte conosco para encontrar o Rottweiler perfeito para a sua família.
