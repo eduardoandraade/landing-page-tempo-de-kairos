@@ -3,7 +3,8 @@
 }
 
 .c-container .image-container {
-    border: 8px solid rgba(232, 232, 232, 93%)
+    border: 8px solid rgba(232, 232, 232, 93%);
+    margin-left: 3rem;
 }
 
 .c-container>div{

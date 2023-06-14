@@ -1,7 +1,25 @@
 .f-container {
-    padding: 0.5rem;
+    justify-content: space-between;
 }
 
-.f-container>p{
-    font-size: 0.8rem;
+.f-left {
+    gap: .5rem;
+}
+
+.f-left .secondaryText {
+    font-weight: 400;
+}
+
+.f-right {
+    gap: .5rem;
+}
+
+.f-right span:nth-child(1) {
+    font-size: 1.6rem;
+}
+
+.f-right span:nth-child(4) {
+    gap: 1.5rem;
+    margin-top: .5rem;
+    font-weight: 400;
 }

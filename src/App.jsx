@@ -6,6 +6,7 @@ import Certificates from "./components/Certificates/certificates";
 import Puppies from "./components/Puppies/Puppies";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Partnerships from "./components/Partnerships/Partnerships";
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Puppies />
       <About />
       <Contact />
+      <Partnerships />
       <Footer />
 
     </div>

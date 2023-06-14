@@ -2,7 +2,6 @@ import React from 'react'
 import './Contact.css'
 import { MdCall } from 'react-icons/md';
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa'
-import { HiChatBubbleBottomCenter } from 'react-icons/hi2';
 
 
 const Contact = () => {
