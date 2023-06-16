@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import { HiOutlineChevronRight } from "react-icons/hi";
 import CountUp from "react-countup";
+import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
@@ -14,11 +15,26 @@ const Hero = () => {
                     <div className="orange-circle">
 
                     </div>
-                    <h1>
+                    <motion.h1
+                        initial={{y: "2rem", opacity: 0}}
+                        animate={{y: 0, opacity: 1}}
+                        transition={{
+                            duration: 2,
+                            type: "spring"
+                        }}
+                    >
                         Canil <br /> 
                         Tempo de Kairós
-                    </h1>
-                    <h2>Rottweiler Leais e Protetores</h2>
+                    </motion.h1>
+                    <motion.h2
+                        initial={{y: "2rem", opacity: 0}}
+                        animate={{y: 0, opacity: 1}}
+                        transition={{
+                            duration: 2,
+                            type: "spring"
+                        }}
+                    >
+                        Rottweiler Leais e Protetores</motion.h2>
                 </div>
 
                 <div className="flexColStart hero-description">
@@ -66,9 +82,16 @@ const Hero = () => {
 
             {/* right side */}
             <div className="flexCenter hero-right">
-                <div className="image-container">
+                <motion.div
+                initial={{x: "5rem", opacity: 0}}
+                animate={{x: 0, opacity: 1}}
+                transition={{
+                    duration: 3,
+                    type: "spring"
+                }}
+                className="image-container">
                     <img src="./hero-image.png" alt="Imagem principal de um Cachorro da raça Rottweiler" />
-                </div>
+                </motion.div>
             </div>
         </div>
     </section>
