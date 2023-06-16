@@ -1,5 +1,10 @@
 .a-container .image-container {
-    border: 8px solid rgba(232, 232, 232, 93%)
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    margin: auto;
+    border: 4px solid rgba(197, 164, 17, 0.37);
 }
 
 .a-container>div{
@@ -48,4 +53,21 @@
 
 .accordionButton .primaryText {
     font-size: 1.1rem;
+}
+
+@media (max-width: 1024px) {
+   .a-container {
+    flex-direction: column;
+   }
+   .a-container .image-container {
+        width: 100%;
+        height: 25rem;
+   }
+
+   @media (max-width: 768px) {
+    .accordionButton .primaryText {
+        font-size: .7rem;
+    }
+    
+   }
 }

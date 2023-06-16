@@ -4,13 +4,13 @@ import { TbDog, TbHomeCheck, TbAlignBoxLeftBottom } from "react-icons/tb";
 const data = [
   {
     icon: <TbDog />,
-    heading: "Ampla experiência no cuidado de cães",
+    heading: "Experiência no cuidado",
     detail:
       "Temos uma equipe altamente qualificada e experiente no cuidado e treinamento de cães da raça Rottweiler. Com anos de experiência no ramo, nos dedicamos a oferecer um ambiente seguro e saudável para os nossos animais."
   },
   {
     icon: <TbHomeCheck />,
-    heading: "Compromisso com o bem-estar dos cães",
+    heading: "Compromisso com o bem-estar",
     detail:
       "Nosso canil foi projetado para proporcionar conforto e higiene, além de espaços amplos para exercícios e socialização. Também garantimos uma alimentação balanceada e cuidados veterinários regulares para todos os nossos cães."
   },

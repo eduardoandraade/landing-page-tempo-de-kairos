@@ -11,7 +11,7 @@ const Partnerships = () => {
                     <br />e fazer parte da família Tempo de Kairós, envie sua proposta para o nosso e-mail!
                 </span>
                 <button className="button">
-                    <a href="mailto:eduardoandraade@outlook.com">Envie sua proposta</a>
+                    <a href="mailto:eduardoandraade@outlook.com">Enviar proposta</a>
                 </button>
             </div>
         </div>

@@ -25,10 +25,17 @@ const Contact = () => {
                                     <MdCall size={23} />
                                 </div>
                                 <div className="flexColCenter detail">
-                                        <span className='primaryText'>Telefone</span>
-                                        <span className='secondaryText'>&#40;98&#41; 9 8224-9599 </span>
+                                        <span className='primaryText'>Telefone&nbsp;</span>
+                                        <span className='secondaryText'>&#40;98&#41; 98224-9599</span>
                                 </div>
-                                <div className="flexCenter button" onClick={() => window.open('tel:9898224-9599')}>Ligue Agora</div>
+
+                                <div className='flexCenter button'> 
+                                     <a target="_blank" rel="noopener noreferrer"
+                                    href="tel:+5598982249599">
+                                    Ligue agora
+                                    </a>
+                                </div>
+                               
                             </div>
                         </div>
 
@@ -39,7 +46,7 @@ const Contact = () => {
                                 </div>
                                 <div className="flexColCenter detail">
                                         <span className='primaryText'>What'sApp</span>
-                                        <span className='secondaryText'>98 98787-9820</span>
+                                        <span className='secondaryText'>&#40;98&#41; 98224-9599</span>
                                 </div>
                                 <div className="flexCenter button">
                                     <a target="_blank" rel="noopener noreferrer"

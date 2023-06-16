@@ -18,6 +18,7 @@ function App() {
         <div className="white-gradient" />
           <Header />
           <Hero />
+          
       </div>
       <Certificates />
       <Puppies />

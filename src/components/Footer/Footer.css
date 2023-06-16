@@ -23,3 +23,17 @@
     margin-top: .5rem;
     font-weight: 400;
 }
+
+@media (max-width: 768px) {
+    .f-container {
+        justify-content: center;
+    }
+    
+    .f-container>div {
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    
+}

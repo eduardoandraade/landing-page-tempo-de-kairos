@@ -27,11 +27,11 @@ const Hero = () => {
                 </div>
 
                 <div className="flexCenter search-bar">
-                    <span className="ctaText">RAÇA PURA, COM A MELHOR GENÉTICA ALEMÃ</span>
-                    <HiOutlineChevronRight color="black" size={23} />
+                    <span className="ctaText">Raça pura, com a melhor génetica alemã!</span>
+                    <HiOutlineChevronRight className="iconSet" color="black" size={23} />
                     <button className="button">
                         <a href="https://api.whatsapp.com/message/JGS633CVEWI6H1?autoload=1&app_absent=0">
-                            CHAME NO WHATSAPP</a>
+                            Entrar em contato</a>
                     </button>
                 </div>
 

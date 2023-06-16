@@ -20,4 +20,5 @@
 
 .inner-container .button {
     background: gold;
+    color: var(--brown);
 }
