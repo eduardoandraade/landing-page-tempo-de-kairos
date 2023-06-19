@@ -46,7 +46,8 @@ const Hero = () => {
                     <span className="ctaText">Raça pura, com a melhor génetica alemã!</span>
                     <HiOutlineChevronRight className="iconSet" color="black" size={23} />
                     <button className="button">
-                        <a href="https://api.whatsapp.com/message/JGS633CVEWI6H1?autoload=1&app_absent=0">
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://api.whatsapp.com/message/JGS633CVEWI6H1?autoload=1&app_absent=0">
                             Entrar em contato</a>
                     </button>
                 </div>

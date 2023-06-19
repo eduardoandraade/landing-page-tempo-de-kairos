@@ -8,7 +8,7 @@ const Contact = () => {
 
 
   return (
-    <div className='c-wrapper'>
+    <div className='c-wrapper' id='contact'>
         <div className="paddings innerWidth flexCenter c-container">
             
             {/* Left Side */}

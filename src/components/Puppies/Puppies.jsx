@@ -8,8 +8,8 @@ import { sliderSettings } from '../../utils/common'
 
 const Puppies = () => {
   return (
-    <section className='p-wrapper'>
-        <div className="paddings innerWidth p-container">
+    <section className='p-wrapper' id="puppies-section"> 
+        <div className="paddings innerWidth p-container" id="puppies-section">
             <div className="p-head flexColStart">
                 <span className="orangeText">Faça parte da família</span>
                 <span className="primaryText">Filhotes Tempo de Kairós</span>

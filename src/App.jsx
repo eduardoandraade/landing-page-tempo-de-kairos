@@ -1,33 +1,43 @@
+import './App.css';
+import About from "./components/About/About";
+import Certificates from "./components/Certificates/certificates";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-import Footer from "./components/Footer/Footer";
-import './App.css'
-import Certificates from "./components/Certificates/certificates";
-import Puppies from "./components/Puppies/Puppies";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
 import Partnerships from "./components/Partnerships/Partnerships";
+import Puppies from "./components/Puppies/Puppies";
+import { BrowserRouter } from 'react-router-dom';
+
 
 
 
 function App() {
   return (
-    <div className="App">
 
-      <div>
-        <div className="white-gradient" />
-          <Header />
-          <Hero />
+   
+      <div className="App">
+        <BrowserRouter>
+        <div>
+          <div className="white-gradient" />
+            <Header />
+            <Hero />
+          </div>
           
-      </div>
-      <Certificates />
-      <Puppies />
-      <About />
-      <Contact />
-      <Partnerships />
-      <Footer />
+        <Certificates />
 
-    </div>
+        
+          <Puppies to='/puppies'/> 
+          <About to='/about'/>
+          <Contact to=''/>
+          <Partnerships to='' />
+        
+
+        <Footer />
+        </BrowserRouter>
+        </div>
+  
+    
   );
 }
 

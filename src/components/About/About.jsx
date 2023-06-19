@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
     Accordion,
     AccordionItem,
@@ -14,7 +14,7 @@ import data from '../../utils/accordion'
 
 const About = () => {
   return (
-    <section className="a-wrapper">
+    <section className="a-wrapper" id='about'>
         <div className="paddings innerWidth flexCenter a-container">
             
             {/* Left Side */}
@@ -42,9 +42,9 @@ const About = () => {
                     {
                         data.map((item, i)=> {
                                 const [className, setClassName] = useState(null)
-                            
+
                             return (
-                                <AccordionItem className={`accordionItem ${className}`} key={1} uuid={i}>
+                                <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i}>
                                     <AccordionItemHeading>
                                         <AccordionItemButton className="flexCenter accordionButton">
 
